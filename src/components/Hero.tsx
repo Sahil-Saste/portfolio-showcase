@@ -57,7 +57,7 @@ const Hero = () => {
           
           {/* Resume download */}
           <Button asChild size="lg" className="gradient-accent-bg glow-accent-effect">
-            <a href="/SahilSasteResume.pdf" download>
+            <a href="/SahilSasteResume (1).pdf" download>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </a>
