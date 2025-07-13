@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -102,10 +102,8 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="pt-8 border-t border-border/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground flex items-center gap-2">
-              © {currentYear} Sahil Saste. Made with 
-              <Heart className="h-4 w-4 text-red-500 fill-current" />
-              and lots of data
+            <p className="text-sm text-muted-foreground">
+              © {currentYear} Sahil Saste.
             </p>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <span>B.E. AI & Data Science</span>
